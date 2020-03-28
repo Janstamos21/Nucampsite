@@ -4,6 +4,8 @@ $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+$color-white: white;
 
 $body-font: "Open Sans", sans-serif; 
 $header-font:"Lobster", cursive;  
@@ -35,6 +37,8 @@ header  {
     padding: 30px;
     background-image: linear-gradient(to right,$color-secondary, $color-primary,$color-dark);
     color: white;
+    h2 {color: white;
+    }
 }
 
 .row-content {
@@ -64,3 +68,17 @@ header  {
     right: 0;
     bottom: 0;
 }
+#reserveModal{
+    .modal-header{
+        color: $color-white;
+        background-color: $color-teal;
+    }
+}
+#loginModal{
+   .modal-header{
+    color: $color-white;
+    background-color: $color-mid;
+   } 
+}
+
+
